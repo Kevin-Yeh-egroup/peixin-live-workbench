@@ -18,6 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-Hant">
+      <head>
+        <meta name="robots" content="noindex,nofollow,noarchive" />
+      </head>
       <body>{children}</body>
     </html>
   );
